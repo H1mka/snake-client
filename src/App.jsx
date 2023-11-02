@@ -44,7 +44,7 @@ function App() {
                 </Overlay>
             ) : gameStatus === 'pause' ? (
                 <Overlay>
-                    <img src='/snake-client/src/assets/images/pauseImg.png' />
+                    <img src='/src/assets/images/pauseImg.png' />
                 </Overlay>
             ) : (
                 ''
