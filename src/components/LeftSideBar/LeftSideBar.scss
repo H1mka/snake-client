@@ -23,6 +23,27 @@
                 max-width: 30px;
                 max-height: 30px;
             }
+
+            div {
+                width: 30px;
+                height: 30px;
+
+                background-size: 90% 90%;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            .appleImg {
+                background-image: url(../../assets/images/apple2.png);
+            }
+
+            .pineappleImg {
+                background-image: url(../../assets/images/pineapple2.png);
+            }
+
+            .watermelonImg {
+                background-image: url(../../assets/images/watermelon.png);
+            }
         }
     }
 

@@ -44,7 +44,7 @@ function App() {
                 </Overlay>
             ) : gameStatus === 'pause' ? (
                 <Overlay>
-                    <img src='/src/assets/images/pauseImg.png' />
+                    <div className='pauseImg' />
                 </Overlay>
             ) : (
                 ''
