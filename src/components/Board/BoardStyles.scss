@@ -1,0 +1,44 @@
+.row {
+    display: flex;
+}
+
+.board {
+    width: 100%;
+    min-height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell {
+    min-height: 40px;
+    min-width: 40px;
+    outline: 2px solid #93be41;
+    background-color: #aad751;
+
+    background-size: 90% 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &.snake-cell {
+        background-color: #4d9ea7 !important;
+    }
+
+    &.snakeHead-cell {
+        background-color: #0a4f57 !important;
+    }
+
+    &.small-food {
+        background-image: url(../../assets/images/apple2.png);
+    }
+
+    &.medium-food {
+        background-image: url(../../assets/images/pineapple2.png);
+    }
+
+    &.large-food {
+        background-image: url(../../assets/images/watermelon.png);
+    }
+}

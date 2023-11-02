@@ -1,0 +1,18 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #578a34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, Roboto, sans-serif;
+    color: #2d2d2d;
+}
+
+#root {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
