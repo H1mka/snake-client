@@ -12,7 +12,7 @@ const LeftSideBar = () => {
             <div className='playerName'>{playerName}</div>
             <div className='foodInfo'>
                 <div className='foodBlock'>
-                    <img src='/assets/apple2-a6754422.png' alt='apple' />
+                    <img src='/dict/assets/apple2-a6754422.png' alt='apple' />
                     <p> – 1 point</p>
                 </div>
                 <div className='foodBlock'>
