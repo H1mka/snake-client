@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux';
 import { incrementScoreByAmount } from '../../redux/snakeSlice';
 
 import { SnakeHead, SnakeBody } from '../../сlasses/SnakeClasses';
-import { FoodCellsMap } from '../../constants/foodcellsMap';
+import { FoodCellsMap } from '../../constants/foodCellsMap';
 
 import { randomFood, createBoard, getFirstNumber } from '../../utils';
 
